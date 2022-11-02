@@ -1,5 +1,5 @@
 {
-  "name": "Toast",
+  "name": "@wenmu/Toast",
   "version": "1.0.0",
   "description": "",
   "main": "./build/bundle.js",
@@ -45,11 +45,11 @@
   "author": "wenmu",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/codepandy/Toast"
   },
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/codepandy/Toast/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/codepandy/Toast"
 }
