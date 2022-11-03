@@ -2,9 +2,12 @@
 
 一个简易的 toast 组件，功能简单，可自定义样式和图标，没有其他花里胡哨的功能。
 
-## 安装
+An easy-to-use hint component for customizing ICONS and styles.
+
+## 安装 install
+
 ```bash
-npm i @wenmu/Toast
+npm i @wenmu/toast
 ```
 
 ## 语法
@@ -13,7 +16,7 @@ npm i @wenmu/Toast
 Toast.show(text, [options]);
 ```
 
-## Demo
+## Usage
 
 ```js
 import Toast from "../index";
@@ -31,9 +34,9 @@ const onClick = () => {
 
 ## 参数
 
-| 参数      | 说明                                         | 默认值     | 类型 |
-| --------- | :------------------------------------------- | :--------- |---|
-| text      | 显示的内容 | ''|string|
-| time      | 消息显示的时间 | 1500ms | number|
-| className | 自定义样式 | '' | string|
-| icon      | 消息前面的小图标|''| ReactElement |
+| 参数      | 说明               | 默认值 | 类型         |
+| --------- | :----------------- | :----- | ------------ |
+| text      | 显示的内容         | ''     | string       |
+| time      | 消息显示的时间(ms) | 1500   | number       |
+| className | 自定义样式         | ''     | string       |
+| icon      | 消息前面的小图标   | ''     | ReactElement |
